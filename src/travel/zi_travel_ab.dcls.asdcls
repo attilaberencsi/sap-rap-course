@@ -1,0 +1,15 @@
+@EndUserText.label: 'Access Control - Travel'
+@MappingRole: true
+define role ZI_TRAVEL_AB {
+  grant
+    select
+      on
+        ZI_Travel_AB
+          where
+            CurrencyCode = 'EUR'
+            and
+            ( TravelStatus ) = aspect pfcg_auth(ZTRAVEL_ST, ZTRAVEL_ST, ACTVT = '03' )
+            or 
+            true;//not possible to do PFCG changes on trial instance
+            
+}

@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZSC_AGENCY_AB'
+@OData.schema.name: 'ZAGENCYCDS_SRV'
+define service ZSC_AGENCY_AB {
+ expose ZZ_TRAVEL_AGENCY_ES5501E042481; 
+ } 
