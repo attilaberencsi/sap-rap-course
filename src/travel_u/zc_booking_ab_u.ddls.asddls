@@ -43,4 +43,5 @@ define view entity ZC_Booking_AB_U
       _Carrier,
       _Customer,
       _Travel : redirected to parent ZC_Travel_AB_U
+      
 }

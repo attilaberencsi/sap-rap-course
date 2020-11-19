@@ -33,4 +33,5 @@ define root view entity ZC_Travel_AB_U
       _Booking : redirected to composition child ZC_Booking_AB_U,
       _Currency,
       _Customer
+      
 }
