@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <SRVD>
-    <NAME>ZUI_TRAVEL_AB</NAME>
+    <NAME>ZAPI_RAP_TRAVEL_AB</NAME>
     <TYPE>SRVD/SRV</TYPE>
-    <DESCRIPTION>Service Def.4 ZC_Booking_AB</DESCRIPTION>
+    <DESCRIPTION>Travel Web API</DESCRIPTION>
     <LANGUAGE>EN</LANGUAGE>
     <LINKS>
      <item>
@@ -13,11 +13,11 @@
        <UNDEFINED_ATTRIBUTES>
         <item>
          <NAME>etag</NAME>
-         <TEXT>19710401000000001text/plain_Bt1duPvw8tBXJze1WgxxKhCeSRw=</TEXT>
+         <TEXT>19710401000000001text/plain_y0Yi77Qua6MpVfH02DaH4L2ce80=</TEXT>
         </item>
        </UNDEFINED_ATTRIBUTES>
       </COMMON_ATTRIBUTES>
-      <HREF>./zui_travel_ab/source/main</HREF>
+      <HREF>./zapi_rap_travel_ab/source/main</HREF>
       <REL>http://www.sap.com/adt/relations/source</REL>
       <TYPE>text/plain</TYPE>
       <TITLE>Source Content</TITLE>
@@ -30,19 +30,19 @@
         </item>
        </UNDEFINED_ATTRIBUTES>
       </COMMON_ATTRIBUTES>
-      <HREF>./zui_travel_ab/source/main</HREF>
+      <HREF>./zapi_rap_travel_ab/source/main</HREF>
       <REL>http://www.sap.com/adt/relations/source</REL>
       <TYPE>text/html</TYPE>
       <TITLE>Source Content (HTML)</TITLE>
      </item>
      <item>
-      <HREF>./zui_travel_ab/source/main/versions</HREF>
+      <HREF>./zapi_rap_travel_ab/source/main/versions</HREF>
       <REL>http://www.sap.com/adt/relations/versions</REL>
       <TITLE>Historic versions</TITLE>
      </item>
     </LINKS>
     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
-    <SOURCE_URI>./zui_travel_ab/source/main</SOURCE_URI>
+    <SOURCE_URI>./zapi_rap_travel_ab/source/main</SOURCE_URI>
     <SOURCE_TYPE>ABAP_SOURCE</SOURCE_TYPE>
     <SOURCE_ORIGIN_DESCRIPTION>ABAP Development Tools</SOURCE_ORIGIN_DESCRIPTION>
     <SRVD_SOURCE_TYPE>S</SRVD_SOURCE_TYPE>
